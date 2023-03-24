@@ -2,6 +2,7 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <AzureFunctionsVersion>v4</AzureFunctionsVersion>
+    <_FunctionsSkipCleanOutput>true</_FunctionsSkipCleanOutput>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.Azure.Functions.Extensions" Version="1.1.0" />
@@ -17,5 +18,10 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <CopyToPublishDirectory>Never</CopyToPublishDirectory>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Aqovia.Interview.Todo.Data\Aqovia.Interview.Todo.Data.csproj" />
+    <ProjectReference Include="..\Aqovia.Interview.Data.InMemory\Aqovia.Interview.Data.InMemory.csproj" />
+    <ProjectReference Include="..\Aqovia.Interview.Data\Aqovia.Interview.Data.csproj" />
   </ItemGroup>
 </Project>

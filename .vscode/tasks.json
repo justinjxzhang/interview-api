@@ -76,6 +76,12 @@
 			"command": "host start",
 			"isBackground": true,
 			"problemMatcher": "$func-dotnet-watch"
+		},
+		{
+			"label": "build (webapi)",
+			"type": "shell",
+			"command": "dotnet build",
+			"problemMatcher": ["$msCompile"]
 		}
 	]
 }

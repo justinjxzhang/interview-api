@@ -458,3 +458,4 @@ $RECYCLE.BIN/
 ##
 __blobstorage__/*
 __azurite_db_blob*.json
+__azurite_db_queue*.json

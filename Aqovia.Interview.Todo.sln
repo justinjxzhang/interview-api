@@ -7,6 +7,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1ACB74D0-F99
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aqovia.Interview.Todo.Function", "src\Aqovia.Interview.Todo.Function\Aqovia.Interview.Todo.Function.csproj", "{E8728FB0-A7E7-4266-8B32-7C23CB00463F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aqovia.Interview.Todo.Data", "src\Aqovia.Interview.Todo.Data\Aqovia.Interview.Todo.Data.csproj", "{8D21C677-B538-421C-AAD8-242255DAC927}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aqovia.Interview.Data", "src\Aqovia.Interview.Data\Aqovia.Interview.Data.csproj", "{962F3723-A894-4F07-A542-258BFB1F9E88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aqovia.Interview.Data.InMemory", "src\Aqovia.Interview.Data.InMemory\Aqovia.Interview.Data.InMemory.csproj", "{6CAF74D1-FD58-49F6-AD46-6B7D3086377E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aqovia.Interview.Todo.WebApi", "src\Aqovia.Interview.Todo.WebApi\Aqovia.Interview.Todo.WebApi.csproj", "{E5332891-6F98-4610-BFEE-83ED604E4F8F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,8 +28,28 @@ Global
 		{E8728FB0-A7E7-4266-8B32-7C23CB00463F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E8728FB0-A7E7-4266-8B32-7C23CB00463F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E8728FB0-A7E7-4266-8B32-7C23CB00463F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D21C677-B538-421C-AAD8-242255DAC927}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D21C677-B538-421C-AAD8-242255DAC927}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D21C677-B538-421C-AAD8-242255DAC927}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D21C677-B538-421C-AAD8-242255DAC927}.Release|Any CPU.Build.0 = Release|Any CPU
+		{962F3723-A894-4F07-A542-258BFB1F9E88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{962F3723-A894-4F07-A542-258BFB1F9E88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{962F3723-A894-4F07-A542-258BFB1F9E88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{962F3723-A894-4F07-A542-258BFB1F9E88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CAF74D1-FD58-49F6-AD46-6B7D3086377E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CAF74D1-FD58-49F6-AD46-6B7D3086377E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CAF74D1-FD58-49F6-AD46-6B7D3086377E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CAF74D1-FD58-49F6-AD46-6B7D3086377E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5332891-6F98-4610-BFEE-83ED604E4F8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5332891-6F98-4610-BFEE-83ED604E4F8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5332891-6F98-4610-BFEE-83ED604E4F8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5332891-6F98-4610-BFEE-83ED604E4F8F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E8728FB0-A7E7-4266-8B32-7C23CB00463F} = {1ACB74D0-F99F-459B-97C6-F776E184BC17}
+		{8D21C677-B538-421C-AAD8-242255DAC927} = {1ACB74D0-F99F-459B-97C6-F776E184BC17}
+		{962F3723-A894-4F07-A542-258BFB1F9E88} = {1ACB74D0-F99F-459B-97C6-F776E184BC17}
+		{6CAF74D1-FD58-49F6-AD46-6B7D3086377E} = {1ACB74D0-F99F-459B-97C6-F776E184BC17}
+		{E5332891-6F98-4610-BFEE-83ED604E4F8F} = {1ACB74D0-F99F-459B-97C6-F776E184BC17}
 	EndGlobalSection
 EndGlobal
